@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+    <title>Weather & Twitter Exploration</title>
+    <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script src='js/geolet.js'></script>
+    <script src="https://api.windy.com/assets/map-forecast/libBoot.js"></script>
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/carousel/">
+    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/carousel.css" rel="stylesheet">
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <link rel='stylesheet' href='css/style.css' />
+<head>
+    <meta charset="utf-8">
+    <title> Meet The Team </title>
+    <link rel='stylesheet' href='css/style.css' />
+    <style type="text/css">
+
+        body {
+            background-image: url('imgs/background.jpg');
+        }
+    </style>
+</head>
+
+<body>
+    <div id="body-container">
+      <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Weather & Twitter Exploration</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+              <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About the Team </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://forms.gle/fRxwtGYjSeKS3xaV8"> Feedback </a>
+                </li>
+              </ul>
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button> <!--This is not functional yet -->
+              </form>
+            </div>
+          </div>
+        </nav>
+      </header>
+        <h1><b>MEET THE TEAM</b></h1>
+        <div class = "title" >
+          <h1> <b>MEET THE TEAM</b></h1>
+        <div>
+        <div class='about_me' id='Billy'>
+            <div class="profile">
+                <img class='photo' src='imgs/billy.JPG'/>
+                <span><b>BILLY HENSHAW</b></span>
+            </div>
+            <div class='desc'>
+                <br>
+                My name is Billy Henshaw. <br>
+                I am a second-year MSGIS student in the
+                <a href="https://www.clarku.edu/schools/idce"> IDCE Department</a> at
+                <a href="https://www.clarku.edu/"> Clark University. </a> My professional interests are in
+                smart agriculture, sustainable development, and climate change and impacts, all within the context of a GIS.
+                When not nerding out about raster data, you can find me playing Ultimate Frisbee, chess, D&D, or hiking! Catch me in the PNW.
+            </div>
+            <br>
+            <br>
+        </div>
+        <div class='about_me' id='Jason'>
+            <div class='profile'>
+                <img class='photo' src='imgs/jason.JPG' />
+                <span><b>ZEXING ZHENG</b></span>
+            </div>
+            <div class='desc'>
+                <br>
+                My name is Zexing Zheng. <br>
+                I am a student in the
+                <a href="https://www.clarku.edu/schools/idce"> IDCE Department</a> at
+                <a href="https://www.clarku.edu/"> Clark University. </a> I am interested in remote sensing, geospatial
+                analysis with R, and quantitative methods.
+            </div>
+            <br>
+            <br>
+        </div>
+        <div class='about_me' id='Aandishah'>
+            <div class='profile'>
+                <img class='photo' src='imgs/aandishah.JPG' />
+                <span><b>AANDISHAH TEHZEEB SAMARA</b></span>
+            </div>
+            <div class='desc'>
+                <br>
+                My name is Aandishah! I am a candidate for MS GIS in the
+               <a href='https://www.clarku.edu/departments/geography/'> Graduate School of Geography</a> at
+               <a href="https://www.clarku.edu/"> Clark University</a>.
+                My interests in research include climate change, sea-ice-atmosphere interactions, and applications of remote sensing.
+                In particular, I am fascinated by the impacts of climate change on the interactions between the cryosphere and the atmosphere,
+                and how they impact feedback systems. At Clark, I have used remote sensing data to analyze the negative correlation between sea ice
+                and cloud cover in the Pacific Arctic using time series analysis.
+            </div>
+        </div>
+    </div>
+</body>
+<footer>
+  <footer class="container">
+    <br>
+    <p class="float-end"><a href="#">Back to top</a></p>
+    <p> Weather and Twitter Exploration 2021 &copy; </p>
+  </footer>
+</html>
